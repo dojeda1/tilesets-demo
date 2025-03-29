@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://qv2evnjpbpkk"]
+
+[ext_resource type="Texture2D" uid="uid://054d44osh62m" path="res://assets/tileset-hex-straight-Sheet.png" id="1_4i71e"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_up8s4"]
+texture = ExtResource("1_4i71e")
+texture_region_size = Vector2i(32, 22)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+3:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8.5, -8.125, -16.125, -0.125, -8.625, 7.75, 9, 7.875, 16.125, 0, 8.5, -8.125)
+
+[sub_resource type="TileSet" id="TileSet_4ygdr"]
+tile_shape = 3
+tile_layout = 5
+tile_size = Vector2i(50, 10)
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_up8s4")
+
+[node name="TileMapHexStraight" type="TileMapLayer"]
+texture_filter = 1
+tile_set = SubResource("TileSet_4ygdr")

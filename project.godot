@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="TestTilesets"
-run/main_scene="res://test-world.tscn"
+run/main_scene="res://platformer_world.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -21,4 +21,4 @@ window/stretch/mode="viewport"
 
 [rendering]
 
-environment/defaults/default_clear_color=Color(0.4704, 0.92736, 0.96, 1)
+environment/defaults/default_clear_color=Color(0.672, 0.9408, 0.96, 1)

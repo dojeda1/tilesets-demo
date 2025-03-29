@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8426fjrbxpq"
-path="res://.godot/imported/knight-steel-Sheet.png-1b7a06d8007d0fb4a3d0fcfd11b2105a.ctex"
+uid="uid://054d44osh62m"
+path="res://.godot/imported/tileset-hex-straight-Sheet.png-09bf9adbb8d82435ad791c334a1fb8bf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://examples/knight-steel-Sheet.png"
-dest_files=["res://.godot/imported/knight-steel-Sheet.png-1b7a06d8007d0fb4a3d0fcfd11b2105a.ctex"]
+source_file="res://assets/tileset-hex-straight-Sheet.png"
+dest_files=["res://.godot/imported/tileset-hex-straight-Sheet.png-09bf9adbb8d82435ad791c334a1fb8bf.ctex"]
 
 [params]
 

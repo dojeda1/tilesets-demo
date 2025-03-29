@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://cvbv4kyehsula"]
+
+[ext_resource type="Texture2D" uid="uid://di6awm31n6cnv" path="res://assets/tileset-isometric-flat-Sheet.png" id="1_ekcei"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_adm00"]
+texture = ExtResource("1_ekcei")
+texture_region_size = Vector2i(32, 16)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+3:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
+
+[sub_resource type="TileSet" id="TileSet_jspvl"]
+tile_shape = 1
+tile_layout = 5
+tile_size = Vector2i(32, 16)
+physics_layer_0/collision_layer = 1
+sources/2 = SubResource("TileSetAtlasSource_adm00")
+
+[node name="TileMapIsometricFlat" type="TileMapLayer"]
+texture_filter = 1
+tile_set = SubResource("TileSet_jspvl")

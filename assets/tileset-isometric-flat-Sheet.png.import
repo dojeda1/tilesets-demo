@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://pak4gee5eg4f"
-path="res://.godot/imported/demo-tiles-Sheet.png-897f80ad6fc00a1aff05317cbf6ab834.ctex"
+uid="uid://di6awm31n6cnv"
+path="res://.godot/imported/tileset-isometric-flat-Sheet.png-27242e013f5e0b4bc6976139b0b81d58.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://examples/demo-tiles-Sheet.png"
-dest_files=["res://.godot/imported/demo-tiles-Sheet.png-897f80ad6fc00a1aff05317cbf6ab834.ctex"]
+source_file="res://assets/tileset-isometric-flat-Sheet.png"
+dest_files=["res://.godot/imported/tileset-isometric-flat-Sheet.png-27242e013f5e0b4bc6976139b0b81d58.ctex"]
 
 [params]
 

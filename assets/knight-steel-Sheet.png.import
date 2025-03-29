@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bb502si1ssdvx"
-path="res://.godot/imported/sword-steel-Sheet.png-cf3eb6230ae8cb16070c51b54b8df02d.ctex"
+uid="uid://b8426fjrbxpq"
+path="res://.godot/imported/knight-steel-Sheet.png-cb5a1ed06b53a5d4eff7b3d2988e6083.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://examples/sword-steel-Sheet.png"
-dest_files=["res://.godot/imported/sword-steel-Sheet.png-cf3eb6230ae8cb16070c51b54b8df02d.ctex"]
+source_file="res://assets/knight-steel-Sheet.png"
+dest_files=["res://.godot/imported/knight-steel-Sheet.png-cb5a1ed06b53a5d4eff7b3d2988e6083.ctex"]
 
 [params]
 

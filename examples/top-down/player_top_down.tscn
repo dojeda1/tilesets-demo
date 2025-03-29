@@ -1,12 +1,11 @@
-[gd_scene load_steps=11 format=3 uid="uid://c10vrqxwdakip"]
+[gd_scene load_steps=11 format=3 uid="uid://gjxfin82he53"]
 
-[ext_resource type="Texture2D" uid="uid://b8426fjrbxpq" path="res://examples/knight-steel-Sheet.png" id="1_cklyt"]
-[ext_resource type="Script" path="res://examples/player.gd" id="1_ntpqb"]
-[ext_resource type="Texture2D" uid="uid://bb502si1ssdvx" path="res://examples/sword-steel-Sheet.png" id="3_8yehi"]
+[ext_resource type="Script" path="res://examples/top-down/player_top_down.gd" id="1_w01wd"]
+[ext_resource type="Texture2D" uid="uid://b8426fjrbxpq" path="res://assets/knight-steel-Sheet.png" id="2_x373m"]
+[ext_resource type="Texture2D" uid="uid://bb502si1ssdvx" path="res://assets/sword-steel-Sheet.png" id="3_vnnm0"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_qv8xk"]
-radius = 6.0
-height = 16.0
+[sub_resource type="CircleShape2D" id="CircleShape2D_0e11c"]
+radius = 3.0
 
 [sub_resource type="Animation" id="Animation_jwtyx"]
 length = 0.001
@@ -162,24 +161,25 @@ _data = {
 "walk": SubResource("Animation_h8e1h")
 }
 
-[node name="CharacterBody2D" type="CharacterBody2D"]
-script = ExtResource("1_ntpqb")
+[node name="PlayerTopDown" type="CharacterBody2D"]
+script = ExtResource("1_w01wd")
 
 [node name="BaseSprite" type="Sprite2D" parent="."]
 unique_name_in_owner = true
 texture_filter = 1
-texture = ExtResource("1_cklyt")
+texture = ExtResource("2_x373m")
 hframes = 8
 metadata/_edit_lock_ = true
 
 [node name="WeaponSprite" type="Sprite2D" parent="BaseSprite"]
 texture_filter = 1
 position = Vector2(11, 0)
-texture = ExtResource("3_8yehi")
+texture = ExtResource("3_vnnm0")
 hframes = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CapsuleShape2D_qv8xk")
+position = Vector2(0, 8)
+shape = SubResource("CircleShape2D_0e11c")
 metadata/_edit_lock_ = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]

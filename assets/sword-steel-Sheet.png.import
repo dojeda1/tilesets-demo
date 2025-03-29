@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dw8pr1ssw0qui"
-path="res://.godot/imported/simple-tile-test-bg.png-8e21192443a13ff4c52f05c2ede66d6d.ctex"
+uid="uid://bb502si1ssdvx"
+path="res://.godot/imported/sword-steel-Sheet.png-ba024c79319f1f0b77b264d6b777b533.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://examples/simple-tile-test-bg.png"
-dest_files=["res://.godot/imported/simple-tile-test-bg.png-8e21192443a13ff4c52f05c2ede66d6d.ctex"]
+source_file="res://assets/sword-steel-Sheet.png"
+dest_files=["res://.godot/imported/sword-steel-Sheet.png-ba024c79319f1f0b77b264d6b777b533.ctex"]
 
 [params]
 
